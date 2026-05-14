@@ -1,10 +1,5 @@
 fastapi
 uvicorn
 python-dotenv
-google-generativeai
-sentence-transformers
-faiss-cpu
-numpy
-scikit-learn
+groq
 rank-bm25
-pydantic
