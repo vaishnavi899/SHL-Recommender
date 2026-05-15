@@ -321,6 +321,7 @@ STRICT RULES:
                 messages=llm_messages,
                 temperature=0.15,
                 max_tokens=450,
+                timeout=22,   # 22s cap — leaves 8s headroom inside the 30s evaluator wall
             )
 
             raw_reply = response.choices[0].message.content or ""
